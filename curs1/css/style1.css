@@ -1,0 +1,26 @@
+body div {
+    border: 12px solid red;
+    
+}
+
+body > div {
+    height: 900px;
+    width: 1000px;
+    background-color: purple;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+
+p + div{
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    padding: 5px;
+    background-color: burlywood;
+}
+
+div > div > p + div {
+    background-color: aqua;
+}
